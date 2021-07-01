@@ -14,8 +14,8 @@ const Post = ({ post }) => {
       boxShadow: "7px 7px 15px grey",
     };
     return (
-      <div style={div}>
-        <Link to={`/post/${post.id}`}>
+      <div class = "posts" style={div}>
+        <Link class ="link-color" to={`/post/${post.id}`}>
           <h1>Role: {post.role}</h1>
         </Link>
         <h2>Company: {post.company}</h2>

@@ -28,14 +28,9 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
 
 body {
   align-items: center;
@@ -63,5 +58,71 @@ button:hover {
 }
 
 .logo {
-  margin: 20px;
-} 
+  font-family: 'Comfortaa', cursive;
+}
+
+.delete-btn {
+  margin: 10px;
+  box-shadow: 3px 3px 10px grey;
+  background-color: purple !important;
+}
+
+.delete-btn:hover {
+  margin: 10px;
+  box-shadow: 3px 3px 10px grey;
+  background-color: darkslateblue!important;
+}
+
+.darkmode-btn {
+  margin: 10px;
+  background-color: purple !important;
+  box-shadow: 3px 3px 10px grey;
+}
+
+.darkmode-btn:hover {
+  margin: 10px;
+  background-color: darkslateblue !important;
+  box-shadow: 3px 3px 10px grey;
+}
+
+.dark {
+  background: #222222;
+  color: white;
+}
+
+.dark button {
+  box-shadow: 3px 3px 10px black;
+}
+
+.dark div.posts {
+  box-shadow: 7px 7px 15px black !important;
+  border: 3px solid purple !important;
+}
+
+.single-post-div {
+  text-align: center;
+  border: 3px solid orange;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 7px 7px 15px grey;
+}
+
+.dark .single-post-div {
+  text-align: center;
+  border: 3px solid purple !important;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 7px 7px 15px black;
+}
+
+.link-color {
+  color: purple;
+}
+
+.dark .link-color {
+  color: orange;
+}
+
+.dark .link-color:hover {
+  color: white;
+}
